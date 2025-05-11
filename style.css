@@ -136,7 +136,7 @@ div{
 #sobremim>p{
     display: block;
 }
-@media(max-width: 660px){
+@media(max-width: 670px){
     .textoprincipal{
         width: 400px;
     }
@@ -147,5 +147,20 @@ div{
     padding: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+   }
+}
+@media(max-width: 440px){
+    .textoprincipal{
+        width: 280px;
+    }
+    #listnavbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   ul{
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
    }
 }
